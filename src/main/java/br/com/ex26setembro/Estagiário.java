@@ -1,4 +1,4 @@
-package br.com.domain;
+package br.com.ex26setembro;
 
 public class Estagiário extends Funcionario {
 
@@ -9,7 +9,7 @@ public class Estagiário extends Funcionario {
                        String matricula,
                        double valorHoraTrabalhada) {
 
-        super(nome, matricula);
+        super(nome, matricula );
         this.valorHoraTrabalhada = valorHoraTrabalhada;
         this.horasTrabalhadas = 0;
     }
